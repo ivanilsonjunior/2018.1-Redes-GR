@@ -1,0 +1,28 @@
+Oct 15 15:11:37.475 HYPERVISOR: Release 0.2.18-amd64/Linux (tag 2018033112)
+Oct 15 15:11:37.475 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 58391.
+Oct 15 15:11:37.485 HYPERVISOR: exec_cmd: hypervisor version 
+Oct 15 15:11:37.485 HYPERVISOR: exec_cmd: hypervisor working_dir /home/aluno/GNS3/projects/OSPF-20180604/project-files/dynamips 
+Oct 15 15:11:37.485 GENERAL: working_dir=/home/aluno/GNS3/projects/OSPF-20180604/project-files/dynamips
+Oct 15 15:11:37.485 HYPERVISOR: exec_cmd: hypervisor working_dir /home/aluno/GNS3/projects/OSPF-20180604/project-files/dynamips/70d836c3-6420-42a6-9f5e-c7701b90eb4b 
+Oct 15 15:11:37.485 GENERAL: working_dir=/home/aluno/GNS3/projects/OSPF-20180604/project-files/dynamips/70d836c3-6420-42a6-9f5e-c7701b90eb4b
+Oct 15 15:11:37.485 HYPERVISOR: exec_cmd: vm create CA 5 c1700 
+Oct 15 15:11:37.486 VM: VM CA created.
+Oct 15 15:11:37.486 HYPERVISOR: exec_cmd: vm set_con_tcp_port CA 5024 
+Oct 15 15:11:37.486 HYPERVISOR: exec_cmd: c1700 get_mac_addr CA 
+Oct 15 15:11:37.486 HYPERVISOR: exec_cmd: c1700 set_chassis CA 1751 
+Oct 15 15:11:37.486 HYPERVISOR: exec_cmd: vm set_sparse_mem CA 1 
+Oct 15 15:11:37.487 HYPERVISOR: exec_cmd: vm slot_add_binding CA 0 16 WIC-1ENET 
+Oct 15 15:11:37.487 HYPERVISOR: exec_cmd: c1700 set_mac_addr CA d005.4339.0000 
+Oct 15 15:11:37.487 HYPERVISOR: exec_cmd: vm set_ios CA /home/aluno/GNS3/images/IOS/c1700-adventerprisek9-mz.124-25b.image 
+Oct 15 15:11:37.488 HYPERVISOR: exec_cmd: vm set_ram CA 128 
+Oct 15 15:11:37.488 HYPERVISOR: exec_cmd: vm slot_add_binding CA 0 32 WIC-1ENET 
+Oct 15 15:11:37.488 HYPERVISOR: exec_cmd: vm set_nvram CA 128 
+Oct 15 15:11:37.488 HYPERVISOR: exec_cmd: c1700 set_iomem CA 5 
+Oct 15 15:11:37.489 HYPERVISOR: exec_cmd: vm get_status CA 
+Oct 15 15:11:37.489 HYPERVISOR: exec_cmd: vm set_idle_pc CA 0x8035882c 
+Oct 15 15:11:39.162 HYPERVISOR: exec_cmd: nio create_udp udp-4c3188e3-7f77-43d9-bc75-668c3bc76c1a 10086 127.0.0.1 10087 
+Oct 15 15:11:39.183 HYPERVISOR: exec_cmd: vm slot_add_nio_binding CA 0 16 udp-4c3188e3-7f77-43d9-bc75-668c3bc76c1a 
+Oct 15 15:11:39.183 HYPERVISOR: exec_cmd: vm get_status CA 
+Oct 15 15:11:39.489 HYPERVISOR: exec_cmd: nio create_udp udp-3d33af2b-1f1e-4c0a-830c-5e4296ebed27 10106 127.0.0.1 10107 
+Oct 15 15:11:39.490 HYPERVISOR: exec_cmd: vm slot_add_nio_binding CA 0 0 udp-3d33af2b-1f1e-4c0a-830c-5e4296ebed27 
+Oct 15 15:11:39.491 HYPERVISOR: exec_cmd: vm get_status CA 

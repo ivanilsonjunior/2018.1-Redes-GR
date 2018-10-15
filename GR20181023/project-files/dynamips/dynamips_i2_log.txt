@@ -1,0 +1,21 @@
+Oct 15 15:11:37.072 HYPERVISOR: Release 0.2.18-amd64/Linux (tag 2018033112)
+Oct 15 15:11:37.072 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 47993.
+Oct 15 15:11:37.082 HYPERVISOR: exec_cmd: hypervisor version 
+Oct 15 15:11:37.082 HYPERVISOR: exec_cmd: hypervisor working_dir /home/aluno/GNS3/projects/OSPF-20180604/project-files/dynamips 
+Oct 15 15:11:37.082 GENERAL: working_dir=/home/aluno/GNS3/projects/OSPF-20180604/project-files/dynamips
+Oct 15 15:11:37.082 HYPERVISOR: exec_cmd: hypervisor working_dir /home/aluno/GNS3/projects/OSPF-20180604/project-files/dynamips/2eb50b1d-ed0d-4c57-ac5b-7ec9809e15ef 
+Oct 15 15:11:37.082 GENERAL: working_dir=/home/aluno/GNS3/projects/OSPF-20180604/project-files/dynamips/2eb50b1d-ed0d-4c57-ac5b-7ec9809e15ef
+Oct 15 15:11:37.085 HYPERVISOR: exec_cmd: vm create SC 2 c3600 
+Oct 15 15:11:37.085 VM: VM SC created.
+Oct 15 15:11:37.085 HYPERVISOR: exec_cmd: vm set_con_tcp_port SC 5010 
+Oct 15 15:11:37.086 HYPERVISOR: exec_cmd: c3600 get_mac_addr SC 
+Oct 15 15:11:37.086 HYPERVISOR: exec_cmd: c3600 set_chassis SC 3660 
+Oct 15 15:11:37.086 HYPERVISOR: exec_cmd: c3600 set_mac_addr SC cc02.3b79.0000 
+Oct 15 15:11:37.087 HYPERVISOR: exec_cmd: vm set_ios SC /home/aluno/GNS3/images/IOS/c3660-a3jk9s-mz.IFRN.image 
+Oct 15 15:11:37.087 HYPERVISOR: exec_cmd: vm set_nvram SC 256 
+Oct 15 15:11:38.310 HYPERVISOR: exec_cmd: nio create_udp udp-69dd20be-1da3-4824-b1de-48fb00ccc2b2 10040 127.0.0.1 10041 
+Oct 15 15:11:38.331 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SC 0 0 udp-69dd20be-1da3-4824-b1de-48fb00ccc2b2 
+Oct 15 15:11:38.331 HYPERVISOR: exec_cmd: vm get_status SC 
+Oct 15 15:11:39.072 HYPERVISOR: exec_cmd: nio create_udp udp-0e04ca13-2bf1-4f97-92d5-9142e36c9729 10080 127.0.0.1 10081 
+Oct 15 15:11:39.074 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SC 0 1 udp-0e04ca13-2bf1-4f97-92d5-9142e36c9729 
+Oct 15 15:11:39.074 HYPERVISOR: exec_cmd: vm get_status SC 

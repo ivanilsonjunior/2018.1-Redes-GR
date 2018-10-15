@@ -1,0 +1,27 @@
+Oct 15 15:11:37.203 HYPERVISOR: Release 0.2.18-amd64/Linux (tag 2018033112)
+Oct 15 15:11:37.203 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 52597.
+Oct 15 15:11:37.213 HYPERVISOR: exec_cmd: hypervisor version 
+Oct 15 15:11:37.214 HYPERVISOR: exec_cmd: hypervisor working_dir /home/aluno/GNS3/projects/OSPF-20180604/project-files/dynamips 
+Oct 15 15:11:37.214 GENERAL: working_dir=/home/aluno/GNS3/projects/OSPF-20180604/project-files/dynamips
+Oct 15 15:11:37.214 HYPERVISOR: exec_cmd: hypervisor working_dir /home/aluno/GNS3/projects/OSPF-20180604/project-files/dynamips/70f7571f-f0da-4dd2-bce1-9052896802e0 
+Oct 15 15:11:37.214 GENERAL: working_dir=/home/aluno/GNS3/projects/OSPF-20180604/project-files/dynamips/70f7571f-f0da-4dd2-bce1-9052896802e0
+Oct 15 15:11:37.214 HYPERVISOR: exec_cmd: vm create JC 11 c3600 
+Oct 15 15:11:37.214 VM: VM JC created.
+Oct 15 15:11:37.214 HYPERVISOR: exec_cmd: vm set_con_tcp_port JC 5016 
+Oct 15 15:11:37.215 HYPERVISOR: exec_cmd: c3600 get_mac_addr JC 
+Oct 15 15:11:37.215 HYPERVISOR: exec_cmd: c3600 set_chassis JC 3660 
+Oct 15 15:11:37.215 HYPERVISOR: exec_cmd: c3600 set_mac_addr JC cc0b.639a.0000 
+Oct 15 15:11:37.216 HYPERVISOR: exec_cmd: vm set_ios JC /home/aluno/GNS3/images/IOS/c3660-a3jk9s-mz.IFRN.image 
+Oct 15 15:11:37.216 HYPERVISOR: exec_cmd: vm set_ram JC 192 
+Oct 15 15:11:37.216 HYPERVISOR: exec_cmd: vm set_nvram JC 256 
+Oct 15 15:11:37.217 HYPERVISOR: exec_cmd: vm get_status JC 
+Oct 15 15:11:37.217 HYPERVISOR: exec_cmd: vm slot_add_binding JC 1 0 NM-1E 
+Oct 15 15:11:37.960 HYPERVISOR: exec_cmd: nio create_udp udp-350353b4-9b24-408f-9050-43013e6cf2a8 10020 127.0.0.1 10021 
+Oct 15 15:11:37.979 HYPERVISOR: exec_cmd: vm slot_add_nio_binding JC 1 0 udp-350353b4-9b24-408f-9050-43013e6cf2a8 
+Oct 15 15:11:37.979 HYPERVISOR: exec_cmd: vm get_status JC 
+Oct 15 15:11:38.506 HYPERVISOR: exec_cmd: nio create_udp udp-93497a01-918f-4fd5-93a1-54db47174fac 10050 127.0.0.1 10051 
+Oct 15 15:11:38.507 HYPERVISOR: exec_cmd: vm slot_add_nio_binding JC 0 0 udp-93497a01-918f-4fd5-93a1-54db47174fac 
+Oct 15 15:11:38.507 HYPERVISOR: exec_cmd: vm get_status JC 
+Oct 15 15:11:38.704 HYPERVISOR: exec_cmd: nio create_udp udp-9b1dfd70-96df-4824-b2eb-9bf92b09a14f 10060 127.0.0.1 10061 
+Oct 15 15:11:38.705 HYPERVISOR: exec_cmd: vm slot_add_nio_binding JC 0 1 udp-9b1dfd70-96df-4824-b2eb-9bf92b09a14f 
+Oct 15 15:11:38.706 HYPERVISOR: exec_cmd: vm get_status JC 

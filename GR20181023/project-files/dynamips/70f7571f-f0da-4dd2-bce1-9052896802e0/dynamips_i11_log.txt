@@ -1,0 +1,37 @@
+Jun 04 11:06:43.099 HYPERVISOR: Release 0.2.18-amd64/Linux (tag 2018033112)
+Jun 04 11:06:43.099 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 54613.
+Jun 04 11:06:43.109 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 04 11:06:43.110 HYPERVISOR: exec_cmd: hypervisor working_dir /home/aluno/GNS3/projects/OSPF-20180604/project-files/dynamips 
+Jun 04 11:06:43.110 GENERAL: working_dir=/home/aluno/GNS3/projects/OSPF-20180604/project-files/dynamips
+Jun 04 11:06:43.110 HYPERVISOR: exec_cmd: hypervisor working_dir /home/aluno/GNS3/projects/OSPF-20180604/project-files/dynamips/accc33d3-c980-48e9-a8a2-1988c48f3d4e 
+Jun 04 11:06:43.110 GENERAL: working_dir=/home/aluno/GNS3/projects/OSPF-20180604/project-files/dynamips/accc33d3-c980-48e9-a8a2-1988c48f3d4e
+Jun 04 11:06:43.110 HYPERVISOR: exec_cmd: vm create IP 3 c3600 
+Jun 04 11:06:43.110 VM: VM IP created.
+Jun 04 11:06:43.111 HYPERVISOR: exec_cmd: vm set_con_tcp_port IP 5011 
+Jun 04 11:06:43.111 HYPERVISOR: exec_cmd: c3600 get_mac_addr IP 
+Jun 04 11:06:43.111 HYPERVISOR: exec_cmd: c3600 set_chassis IP 3660 
+Jun 04 11:06:43.112 HYPERVISOR: exec_cmd: vm set_ios IP /home/aluno/GNS3/images/IOS/c3660-a3jk9s-mz.IFRN.image 
+Jun 04 11:06:43.112 HYPERVISOR: exec_cmd: c3600 set_mac_addr IP cc03.3f85.0000 
+Jun 04 11:06:43.113 HYPERVISOR: exec_cmd: vm set_con_tcp_port IP 5011 
+Jun 04 11:06:43.113 HYPERVISOR: exec_cmd: vm get_status IP 
+Jun 04 11:06:43.113 HYPERVISOR: exec_cmd: vm slot_add_binding IP 1 0 NM-1FE-TX 
+Jun 04 11:06:43.114 HYPERVISOR: exec_cmd: vm set_ram IP 192 
+Jun 04 11:06:43.114 HYPERVISOR: exec_cmd: vm set_nvram IP 256 
+Jun 04 11:06:43.942 HYPERVISOR: exec_cmd: nio create_udp udp-ca34dd16-245c-45b7-83f8-7efa653817ee 10028 127.0.0.1 10029 
+Jun 04 11:06:43.964 HYPERVISOR: exec_cmd: vm slot_add_nio_binding IP 0 1 udp-ca34dd16-245c-45b7-83f8-7efa653817ee 
+Jun 04 11:06:43.964 HYPERVISOR: exec_cmd: vm get_status IP 
+Jun 04 11:06:44.113 HYPERVISOR: exec_cmd: nio create_udp udp-7463fb25-9bf8-4ace-9592-03a4edb05055 10036 127.0.0.1 10037 
+Jun 04 11:06:44.115 HYPERVISOR: exec_cmd: vm slot_add_nio_binding IP 0 0 udp-7463fb25-9bf8-4ace-9592-03a4edb05055 
+Jun 04 11:06:44.115 HYPERVISOR: exec_cmd: vm get_status IP 
+Jun 04 11:06:44.316 HYPERVISOR: exec_cmd: nio create_udp udp-209b4ed2-9a7f-445c-b449-68aa69a0423a 10046 127.0.0.1 10047 
+Jun 04 11:06:44.322 HYPERVISOR: exec_cmd: vm slot_add_nio_binding IP 1 0 udp-209b4ed2-9a7f-445c-b449-68aa69a0423a 
+Jun 04 11:06:44.322 HYPERVISOR: exec_cmd: vm get_status IP 
+Jun 04 11:08:40.174 HYPERVISOR: exec_cmd: vm get_status IP 
+Jun 04 11:08:40.184 HYPERVISOR: exec_cmd: vm extract_config IP 
+Jun 04 11:08:40.590 HYPERVISOR: exec_cmd: vm get_status IP 
+Jun 04 11:08:40.591 HYPERVISOR: exec_cmd: vm extract_config IP 
+Jun 04 11:08:40.591 HYPERVISOR: exec_cmd: vm delete IP 
+Jun 04 11:08:40.591 VM: VM IP destroyed.
+Jun 04 11:08:40.591 HYPERVISOR: exec_cmd: hypervisor stop 
+Jun 04 11:08:40.736 HYPERVISOR: Stopped.
+Jun 04 11:08:40.736 GENERAL: reset done.

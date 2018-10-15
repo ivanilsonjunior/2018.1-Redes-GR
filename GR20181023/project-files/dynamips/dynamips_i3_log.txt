@@ -1,0 +1,27 @@
+Oct 15 15:11:37.109 HYPERVISOR: Release 0.2.18-amd64/Linux (tag 2018033112)
+Oct 15 15:11:37.109 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 60005.
+Oct 15 15:11:37.119 HYPERVISOR: exec_cmd: hypervisor version 
+Oct 15 15:11:37.119 HYPERVISOR: exec_cmd: hypervisor working_dir /home/aluno/GNS3/projects/OSPF-20180604/project-files/dynamips 
+Oct 15 15:11:37.119 GENERAL: working_dir=/home/aluno/GNS3/projects/OSPF-20180604/project-files/dynamips
+Oct 15 15:11:37.120 HYPERVISOR: exec_cmd: hypervisor working_dir /home/aluno/GNS3/projects/OSPF-20180604/project-files/dynamips/117b2433-ae87-4986-9cb0-cf08099edffa 
+Oct 15 15:11:37.120 GENERAL: working_dir=/home/aluno/GNS3/projects/OSPF-20180604/project-files/dynamips/117b2433-ae87-4986-9cb0-cf08099edffa
+Oct 15 15:11:37.120 HYPERVISOR: exec_cmd: vm create NAT 14 c3600 
+Oct 15 15:11:37.120 VM: VM NAT created.
+Oct 15 15:11:37.120 HYPERVISOR: exec_cmd: vm set_con_tcp_port NAT 5019 
+Oct 15 15:11:37.120 HYPERVISOR: exec_cmd: c3600 get_mac_addr NAT 
+Oct 15 15:11:37.121 HYPERVISOR: exec_cmd: c3600 set_chassis NAT 3660 
+Oct 15 15:11:37.121 HYPERVISOR: exec_cmd: c3600 set_mac_addr NAT cc0e.67f4.0000 
+Oct 15 15:11:37.121 HYPERVISOR: exec_cmd: vm set_ios NAT /home/aluno/GNS3/images/IOS/c3660-a3jk9s-mz.IFRN.image 
+Oct 15 15:11:37.122 HYPERVISOR: exec_cmd: vm set_ram NAT 192 
+Oct 15 15:11:37.122 HYPERVISOR: exec_cmd: vm set_nvram NAT 256 
+Oct 15 15:11:37.122 HYPERVISOR: exec_cmd: vm get_status NAT 
+Oct 15 15:11:37.122 HYPERVISOR: exec_cmd: vm slot_add_binding NAT 1 0 NM-4E 
+Oct 15 15:11:38.093 HYPERVISOR: exec_cmd: nio create_udp udp-f1a8c611-4b6f-4edb-a10e-988468bfc5be 10028 127.0.0.1 10029 
+Oct 15 15:11:38.112 HYPERVISOR: exec_cmd: vm slot_add_nio_binding NAT 0 0 udp-f1a8c611-4b6f-4edb-a10e-988468bfc5be 
+Oct 15 15:11:38.113 HYPERVISOR: exec_cmd: vm get_status NAT 
+Oct 15 15:11:38.190 HYPERVISOR: exec_cmd: nio create_udp udp-f69e1c0a-6a73-4339-a1e6-9e7bb3e9b274 10032 127.0.0.1 10033 
+Oct 15 15:11:38.191 HYPERVISOR: exec_cmd: vm slot_add_nio_binding NAT 1 0 udp-f69e1c0a-6a73-4339-a1e6-9e7bb3e9b274 
+Oct 15 15:11:38.192 HYPERVISOR: exec_cmd: vm get_status NAT 
+Oct 15 15:11:38.428 HYPERVISOR: exec_cmd: nio create_udp udp-d4005f22-da5d-4396-bc8e-79123762dc81 10046 127.0.0.1 10047 
+Oct 15 15:11:38.429 HYPERVISOR: exec_cmd: vm slot_add_nio_binding NAT 0 1 udp-d4005f22-da5d-4396-bc8e-79123762dc81 
+Oct 15 15:11:38.429 HYPERVISOR: exec_cmd: vm get_status NAT 

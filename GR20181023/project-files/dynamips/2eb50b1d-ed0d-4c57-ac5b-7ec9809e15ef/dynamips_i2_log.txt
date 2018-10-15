@@ -1,0 +1,35 @@
+Jun 04 11:06:42.791 HYPERVISOR: Release 0.2.18-amd64/Linux (tag 2018033112)
+Jun 04 11:06:42.791 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 52265.
+Jun 04 11:06:42.801 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 04 11:06:42.801 HYPERVISOR: exec_cmd: hypervisor working_dir /home/aluno/GNS3/projects/OSPF-20180604/project-files/dynamips 
+Jun 04 11:06:42.801 GENERAL: working_dir=/home/aluno/GNS3/projects/OSPF-20180604/project-files/dynamips
+Jun 04 11:06:42.802 HYPERVISOR: exec_cmd: hypervisor working_dir /home/aluno/GNS3/projects/OSPF-20180604/project-files/dynamips/7a077e79-f56f-4bab-8aec-93f439f44f03 
+Jun 04 11:06:42.802 GENERAL: working_dir=/home/aluno/GNS3/projects/OSPF-20180604/project-files/dynamips/7a077e79-f56f-4bab-8aec-93f439f44f03
+Jun 04 11:06:42.802 HYPERVISOR: exec_cmd: vm create AP 7 c1700 
+Jun 04 11:06:42.802 VM: VM AP created.
+Jun 04 11:06:42.802 HYPERVISOR: exec_cmd: vm set_con_tcp_port AP 5006 
+Jun 04 11:06:42.802 HYPERVISOR: exec_cmd: c1700 get_mac_addr AP 
+Jun 04 11:06:42.803 HYPERVISOR: exec_cmd: c1700 set_chassis AP 1751 
+Jun 04 11:06:42.803 HYPERVISOR: exec_cmd: vm slot_add_binding AP 0 32 WIC-1ENET 
+Jun 04 11:06:42.804 HYPERVISOR: exec_cmd: vm set_ios AP /home/aluno/GNS3/images/IOS/c1700-adventerprisek9-mz.124-25b.image 
+Jun 04 11:06:42.804 HYPERVISOR: exec_cmd: c1700 set_mac_addr AP d007.486c.0000 
+Jun 04 11:06:42.804 HYPERVISOR: exec_cmd: c1700 set_iomem AP 5 
+Jun 04 11:06:42.805 HYPERVISOR: exec_cmd: vm slot_add_binding AP 0 16 WIC-1ENET 
+Jun 04 11:06:42.805 HYPERVISOR: exec_cmd: vm set_ram AP 128 
+Jun 04 11:06:42.805 HYPERVISOR: exec_cmd: vm set_sparse_mem AP 1 
+Jun 04 11:06:42.805 HYPERVISOR: exec_cmd: vm set_nvram AP 128 
+Jun 04 11:06:42.806 HYPERVISOR: exec_cmd: vm get_status AP 
+Jun 04 11:06:42.806 HYPERVISOR: exec_cmd: vm set_idle_pc AP 0x8035882c 
+Jun 04 11:06:44.829 HYPERVISOR: exec_cmd: nio create_udp udp-862f9180-b4ef-48a9-a93c-718a9be9ad1b 10068 127.0.0.1 10069 
+Jun 04 11:06:44.851 HYPERVISOR: exec_cmd: vm slot_add_nio_binding AP 0 16 udp-862f9180-b4ef-48a9-a93c-718a9be9ad1b 
+Jun 04 11:06:44.852 HYPERVISOR: exec_cmd: vm get_status AP 
+Jun 04 11:06:45.263 HYPERVISOR: exec_cmd: nio create_udp udp-924b13a9-d6ac-435e-ac5e-7b68646ef1dd 10094 127.0.0.1 10095 
+Jun 04 11:06:45.265 HYPERVISOR: exec_cmd: vm slot_add_nio_binding AP 0 0 udp-924b13a9-d6ac-435e-ac5e-7b68646ef1dd 
+Jun 04 11:06:45.265 HYPERVISOR: exec_cmd: vm get_status AP 
+Jun 04 11:08:40.184 HYPERVISOR: exec_cmd: vm get_status AP 
+Jun 04 11:08:40.185 HYPERVISOR: exec_cmd: vm extract_config AP 
+Jun 04 11:08:40.469 HYPERVISOR: exec_cmd: vm get_status AP 
+Jun 04 11:08:40.469 HYPERVISOR: exec_cmd: vm extract_config AP 
+Jun 04 11:08:40.469 HYPERVISOR: exec_cmd: vm delete AP 
+Jun 04 11:08:40.469 VM: VM AP destroyed.
+Jun 04 11:08:40.469 HYPERVISOR: exec_cmd: hypervisor stop 

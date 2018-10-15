@@ -1,0 +1,41 @@
+Jun 04 11:06:42.755 HYPERVISOR: Release 0.2.18-amd64/Linux (tag 2018033112)
+Jun 04 11:06:42.755 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 52379.
+Jun 04 11:06:42.758 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 04 11:06:42.758 HYPERVISOR: exec_cmd: hypervisor working_dir /home/aluno/GNS3/projects/OSPF-20180604/project-files/dynamips 
+Jun 04 11:06:42.758 GENERAL: working_dir=/home/aluno/GNS3/projects/OSPF-20180604/project-files/dynamips
+Jun 04 11:06:42.758 HYPERVISOR: exec_cmd: hypervisor working_dir /home/aluno/GNS3/projects/OSPF-20180604/project-files/dynamips/117b2433-ae87-4986-9cb0-cf08099edffa 
+Jun 04 11:06:42.758 GENERAL: working_dir=/home/aluno/GNS3/projects/OSPF-20180604/project-files/dynamips/117b2433-ae87-4986-9cb0-cf08099edffa
+Jun 04 11:06:42.758 HYPERVISOR: exec_cmd: vm create NAT 14 c3600 
+Jun 04 11:06:42.758 VM: VM NAT created.
+Jun 04 11:06:42.759 HYPERVISOR: exec_cmd: vm set_con_tcp_port NAT 5019 
+Jun 04 11:06:42.759 HYPERVISOR: exec_cmd: c3600 get_mac_addr NAT 
+Jun 04 11:06:42.759 HYPERVISOR: exec_cmd: c3600 set_chassis NAT 3660 
+Jun 04 11:06:42.759 HYPERVISOR: exec_cmd: vm get_status NAT 
+Jun 04 11:06:42.759 HYPERVISOR: exec_cmd: vm slot_add_binding NAT 6 0 NM-4E 
+Jun 04 11:06:42.760 HYPERVISOR: exec_cmd: vm get_status NAT 
+Jun 04 11:06:42.760 HYPERVISOR: exec_cmd: vm slot_add_binding NAT 3 0 NM-4E 
+Jun 04 11:06:42.761 HYPERVISOR: exec_cmd: vm set_ios NAT /home/aluno/GNS3/images/IOS/c3660-a3jk9s-mz.IFRN.image 
+Jun 04 11:06:42.761 HYPERVISOR: exec_cmd: c3600 set_mac_addr NAT cc0e.67f4.0000 
+Jun 04 11:06:42.761 HYPERVISOR: exec_cmd: vm get_status NAT 
+Jun 04 11:06:42.761 HYPERVISOR: exec_cmd: vm slot_add_binding NAT 1 0 NM-4E 
+Jun 04 11:06:42.762 HYPERVISOR: exec_cmd: vm set_ram NAT 192 
+Jun 04 11:06:42.762 HYPERVISOR: exec_cmd: vm get_status NAT 
+Jun 04 11:06:42.762 HYPERVISOR: exec_cmd: vm slot_add_binding NAT 5 0 NM-4E 
+Jun 04 11:06:42.762 HYPERVISOR: exec_cmd: vm get_status NAT 
+Jun 04 11:06:42.762 HYPERVISOR: exec_cmd: vm slot_add_binding NAT 4 0 NM-4E 
+Jun 04 11:06:42.762 HYPERVISOR: exec_cmd: vm set_nvram NAT 256 
+Jun 04 11:06:42.763 HYPERVISOR: exec_cmd: vm get_status NAT 
+Jun 04 11:06:42.763 HYPERVISOR: exec_cmd: vm slot_add_binding NAT 2 0 NM-4E 
+Jun 04 11:06:44.572 HYPERVISOR: exec_cmd: nio create_udp udp-c7fa5b70-56df-4255-88b0-f88104103425 10060 127.0.0.1 10061 
+Jun 04 11:06:44.596 HYPERVISOR: exec_cmd: vm slot_add_nio_binding NAT 0 1 udp-c7fa5b70-56df-4255-88b0-f88104103425 
+Jun 04 11:06:44.597 HYPERVISOR: exec_cmd: vm get_status NAT 
+Jun 04 11:06:45.158 HYPERVISOR: exec_cmd: nio create_udp udp-2f93a6bb-d0f6-4c65-b2c3-8cec750ccf36 10088 127.0.0.1 10089 
+Jun 04 11:06:45.159 HYPERVISOR: exec_cmd: vm slot_add_nio_binding NAT 0 0 udp-2f93a6bb-d0f6-4c65-b2c3-8cec750ccf36 
+Jun 04 11:06:45.159 HYPERVISOR: exec_cmd: vm get_status NAT 
+Jun 04 11:08:40.197 HYPERVISOR: exec_cmd: vm get_status NAT 
+Jun 04 11:08:40.198 HYPERVISOR: exec_cmd: vm extract_config NAT 
+Jun 04 11:08:40.737 HYPERVISOR: exec_cmd: vm get_status NAT 
+Jun 04 11:08:40.738 HYPERVISOR: exec_cmd: vm extract_config NAT 
+Jun 04 11:08:40.740 HYPERVISOR: exec_cmd: vm delete NAT 
+Jun 04 11:08:40.740 VM: VM NAT destroyed.
+Jun 04 11:08:40.740 HYPERVISOR: exec_cmd: hypervisor stop 

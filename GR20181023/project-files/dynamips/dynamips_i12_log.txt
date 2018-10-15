@@ -1,0 +1,30 @@
+Oct 15 15:11:37.409 HYPERVISOR: Release 0.2.18-amd64/Linux (tag 2018033112)
+Oct 15 15:11:37.409 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 38797.
+Oct 15 15:11:37.420 HYPERVISOR: exec_cmd: hypervisor version 
+Oct 15 15:11:37.420 HYPERVISOR: exec_cmd: hypervisor working_dir /home/aluno/GNS3/projects/OSPF-20180604/project-files/dynamips 
+Oct 15 15:11:37.420 GENERAL: working_dir=/home/aluno/GNS3/projects/OSPF-20180604/project-files/dynamips
+Oct 15 15:11:37.420 HYPERVISOR: exec_cmd: hypervisor working_dir /home/aluno/GNS3/projects/OSPF-20180604/project-files/dynamips/97b496b0-b895-41f3-b9eb-04b54738fdf5 
+Oct 15 15:11:37.420 GENERAL: working_dir=/home/aluno/GNS3/projects/OSPF-20180604/project-files/dynamips/97b496b0-b895-41f3-b9eb-04b54738fdf5
+Oct 15 15:11:37.420 HYPERVISOR: exec_cmd: vm create CN 1 c3600 
+Oct 15 15:11:37.421 VM: VM CN created.
+Oct 15 15:11:37.421 HYPERVISOR: exec_cmd: vm set_con_tcp_port CN 5009 
+Oct 15 15:11:37.421 HYPERVISOR: exec_cmd: c3600 get_mac_addr CN 
+Oct 15 15:11:37.421 HYPERVISOR: exec_cmd: c3600 set_chassis CN 3660 
+Oct 15 15:11:37.422 HYPERVISOR: exec_cmd: c3600 set_mac_addr CN cc01.37b1.0000 
+Oct 15 15:11:37.422 HYPERVISOR: exec_cmd: vm set_ios CN /home/aluno/GNS3/images/IOS/c3660-a3jk9s-mz.IFRN.image 
+Oct 15 15:11:37.422 HYPERVISOR: exec_cmd: vm set_ram CN 192 
+Oct 15 15:11:37.423 HYPERVISOR: exec_cmd: vm set_nvram CN 256 
+Oct 15 15:11:37.423 HYPERVISOR: exec_cmd: vm get_status CN 
+Oct 15 15:11:37.423 HYPERVISOR: exec_cmd: vm slot_add_binding CN 1 0 NM-4E 
+Oct 15 15:11:37.714 HYPERVISOR: exec_cmd: nio create_udp udp-daed07c4-2189-4a53-a7bd-df4f1d103cd0 10008 127.0.0.1 10009 
+Oct 15 15:11:37.733 HYPERVISOR: exec_cmd: vm slot_add_nio_binding CN 1 0 udp-daed07c4-2189-4a53-a7bd-df4f1d103cd0 
+Oct 15 15:11:37.734 HYPERVISOR: exec_cmd: vm get_status CN 
+Oct 15 15:11:38.297 HYPERVISOR: exec_cmd: nio create_udp udp-7fb098ed-35b5-4f82-b0ea-77df219ece40 10038 127.0.0.1 10039 
+Oct 15 15:11:38.301 HYPERVISOR: exec_cmd: vm slot_add_nio_binding CN 0 1 udp-7fb098ed-35b5-4f82-b0ea-77df219ece40 
+Oct 15 15:11:38.301 HYPERVISOR: exec_cmd: vm get_status CN 
+Oct 15 15:11:38.619 HYPERVISOR: exec_cmd: nio create_udp udp-d44e45cf-b90d-4fe0-abb6-b859d2d41524 10056 127.0.0.1 10057 
+Oct 15 15:11:38.620 HYPERVISOR: exec_cmd: vm slot_add_nio_binding CN 1 1 udp-d44e45cf-b90d-4fe0-abb6-b859d2d41524 
+Oct 15 15:11:38.620 HYPERVISOR: exec_cmd: vm get_status CN 
+Oct 15 15:11:39.193 HYPERVISOR: exec_cmd: nio create_udp udp-d70e1e1d-ca47-4f65-b746-7add7e475234 10088 127.0.0.1 10089 
+Oct 15 15:11:39.194 HYPERVISOR: exec_cmd: vm slot_add_nio_binding CN 0 0 udp-d70e1e1d-ca47-4f65-b746-7add7e475234 
+Oct 15 15:11:39.194 HYPERVISOR: exec_cmd: vm get_status CN 

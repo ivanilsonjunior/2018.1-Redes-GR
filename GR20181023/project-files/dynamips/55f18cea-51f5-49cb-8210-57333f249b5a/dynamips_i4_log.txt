@@ -1,0 +1,32 @@
+Jun 04 11:06:42.859 HYPERVISOR: Release 0.2.18-amd64/Linux (tag 2018033112)
+Jun 04 11:06:42.859 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 42761.
+Jun 04 11:06:42.868 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 04 11:06:42.869 HYPERVISOR: exec_cmd: hypervisor working_dir /home/aluno/GNS3/projects/OSPF-20180604/project-files/dynamips 
+Jun 04 11:06:42.869 GENERAL: working_dir=/home/aluno/GNS3/projects/OSPF-20180604/project-files/dynamips
+Jun 04 11:06:42.869 HYPERVISOR: exec_cmd: hypervisor working_dir /home/aluno/GNS3/projects/OSPF-20180604/project-files/dynamips/19e2db6c-2b3c-4715-8a61-75d384b0fd09 
+Jun 04 11:06:42.869 GENERAL: working_dir=/home/aluno/GNS3/projects/OSPF-20180604/project-files/dynamips/19e2db6c-2b3c-4715-8a61-75d384b0fd09
+Jun 04 11:06:42.869 HYPERVISOR: exec_cmd: vm create SGA 13 c1700 
+Jun 04 11:06:42.869 VM: VM SGA created.
+Jun 04 11:06:42.869 HYPERVISOR: exec_cmd: vm set_con_tcp_port SGA 5018 
+Jun 04 11:06:42.870 HYPERVISOR: exec_cmd: c1700 get_mac_addr SGA 
+Jun 04 11:06:42.870 HYPERVISOR: exec_cmd: vm slot_add_binding SGA 0 32 WIC-1ENET 
+Jun 04 11:06:42.871 HYPERVISOR: exec_cmd: vm set_ios SGA /home/aluno/GNS3/images/IOS/c1700-adventerprisek9-mz.124-25b.image 
+Jun 04 11:06:42.871 HYPERVISOR: exec_cmd: c1700 set_mac_addr SGA d00d.6666.0000 
+Jun 04 11:06:42.871 HYPERVISOR: exec_cmd: vm slot_add_binding SGA 0 16 WIC-1ENET 
+Jun 04 11:06:42.871 HYPERVISOR: exec_cmd: c1700 set_iomem SGA 5 
+Jun 04 11:06:42.872 HYPERVISOR: exec_cmd: vm set_ram SGA 160 
+Jun 04 11:06:42.872 HYPERVISOR: exec_cmd: vm set_sparse_mem SGA 1 
+Jun 04 11:06:42.872 HYPERVISOR: exec_cmd: vm set_nvram SGA 128 
+Jun 04 11:06:44.458 HYPERVISOR: exec_cmd: nio create_udp udp-bdeac61b-2210-4b58-bc18-aed737cf138d 10054 127.0.0.1 10055 
+Jun 04 11:06:44.478 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SGA 0 16 udp-bdeac61b-2210-4b58-bc18-aed737cf138d 
+Jun 04 11:06:44.479 HYPERVISOR: exec_cmd: vm get_status SGA 
+Jun 04 11:06:45.369 HYPERVISOR: exec_cmd: nio create_udp udp-96cb5573-ba79-440d-9969-c01769cd0529 10100 127.0.0.1 10101 
+Jun 04 11:06:45.371 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SGA 0 0 udp-96cb5573-ba79-440d-9969-c01769cd0529 
+Jun 04 11:06:45.371 HYPERVISOR: exec_cmd: vm get_status SGA 
+Jun 04 11:08:40.156 HYPERVISOR: exec_cmd: vm get_status SGA 
+Jun 04 11:08:40.167 HYPERVISOR: exec_cmd: vm extract_config SGA 
+Jun 04 11:08:40.596 HYPERVISOR: exec_cmd: vm get_status SGA 
+Jun 04 11:08:40.596 HYPERVISOR: exec_cmd: vm extract_config SGA 
+Jun 04 11:08:40.596 HYPERVISOR: exec_cmd: vm delete SGA 
+Jun 04 11:08:40.596 VM: VM SGA destroyed.
+Jun 04 11:08:40.597 HYPERVISOR: exec_cmd: hypervisor stop 

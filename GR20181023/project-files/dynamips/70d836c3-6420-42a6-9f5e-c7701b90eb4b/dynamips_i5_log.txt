@@ -1,0 +1,59 @@
+Jun 04 11:12:50.280 HYPERVISOR: Release 0.2.18-amd64/Linux (tag 2018033112)
+Jun 04 11:12:50.281 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 36503.
+Jun 04 11:12:50.289 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 04 11:12:50.290 HYPERVISOR: exec_cmd: hypervisor working_dir /home/aluno/GNS3/projects/OSPF-20180604/project-files/dynamips 
+Jun 04 11:12:50.290 GENERAL: working_dir=/home/aluno/GNS3/projects/OSPF-20180604/project-files/dynamips
+Jun 04 11:12:50.290 HYPERVISOR: exec_cmd: hypervisor working_dir /home/aluno/GNS3/projects/OSPF-20180604/project-files/dynamips/70f7571f-f0da-4dd2-bce1-9052896802e0 
+Jun 04 11:12:50.290 GENERAL: working_dir=/home/aluno/GNS3/projects/OSPF-20180604/project-files/dynamips/70f7571f-f0da-4dd2-bce1-9052896802e0
+Jun 04 11:12:50.290 HYPERVISOR: exec_cmd: vm create JC 11 c3600 
+Jun 04 11:12:50.290 VM: VM JC created.
+Jun 04 11:12:50.290 HYPERVISOR: exec_cmd: vm set_con_tcp_port JC 5016 
+Jun 04 11:12:50.290 HYPERVISOR: exec_cmd: c3600 get_mac_addr JC 
+Jun 04 11:12:50.291 HYPERVISOR: exec_cmd: c3600 set_chassis JC 3660 
+Jun 04 11:12:50.291 HYPERVISOR: exec_cmd: vm set_ios JC /home/aluno/GNS3/images/IOS/c3660-a3jk9s-mz.IFRN.image 
+Jun 04 11:12:50.292 HYPERVISOR: exec_cmd: vm set_nvram JC 256 
+Jun 04 11:12:50.292 HYPERVISOR: exec_cmd: c3600 set_mac_addr JC cc0b.639a.0000 
+Jun 04 11:12:50.292 HYPERVISOR: exec_cmd: vm set_ram JC 192 
+Jun 04 11:12:50.292 HYPERVISOR: exec_cmd: vm get_status JC 
+Jun 04 11:12:50.293 HYPERVISOR: exec_cmd: vm slot_add_binding JC 1 0 NM-1E 
+Jun 04 11:12:50.853 HYPERVISOR: exec_cmd: nio create_udp udp-53f06893-3daa-48fc-a4d5-f0f5e32f24c2 10008 127.0.0.1 10009 
+Jun 04 11:12:50.872 HYPERVISOR: exec_cmd: vm slot_add_nio_binding JC 0 0 udp-53f06893-3daa-48fc-a4d5-f0f5e32f24c2 
+Jun 04 11:12:50.873 HYPERVISOR: exec_cmd: vm get_status JC 
+Jun 04 11:12:51.579 HYPERVISOR: exec_cmd: nio create_udp udp-8d744495-7437-43d6-aa50-e1bb9567eac8 10040 127.0.0.1 10041 
+Jun 04 11:12:51.580 HYPERVISOR: exec_cmd: vm slot_add_nio_binding JC 1 0 udp-8d744495-7437-43d6-aa50-e1bb9567eac8 
+Jun 04 11:12:51.580 HYPERVISOR: exec_cmd: vm get_status JC 
+Jun 04 11:12:52.237 HYPERVISOR: exec_cmd: nio create_udp udp-e7a33727-03c1-4f91-9148-1193d598878f 10076 127.0.0.1 10077 
+Jun 04 11:12:52.239 HYPERVISOR: exec_cmd: vm slot_add_nio_binding JC 0 1 udp-e7a33727-03c1-4f91-9148-1193d598878f 
+Jun 04 11:12:52.239 HYPERVISOR: exec_cmd: vm get_status JC 
+Jun 04 11:12:59.335 HYPERVISOR: exec_cmd: vm create Ghost 0 c3600 
+Jun 04 11:12:59.335 VM: VM Ghost created.
+Jun 04 11:12:59.336 HYPERVISOR: exec_cmd: vm set_ios Ghost /home/aluno/GNS3/images/IOS/c3660-a3jk9s-mz.IFRN.image 
+Jun 04 11:12:59.339 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Jun 04 11:12:59.339 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost /home/aluno/GNS3/projects/OSPF-20180604/project-files/dynamips/c3660-a3jk9s-mz.IFRN.image-192.ghost 
+Jun 04 11:12:59.340 HYPERVISOR: exec_cmd: vm set_ram Ghost 192 
+Jun 04 11:12:59.340 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Jun 04 11:12:59.341 HYPERVISOR: exec_cmd: vm set_config Ghost configs/i0_startup-config.cfg 
+Jun 04 11:12:59.341 HYPERVISOR: exec_cmd: vm start Ghost 
+Jun 04 11:12:59.696 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Jun 04 11:12:59.697 HYPERVISOR: exec_cmd: vm stop Ghost 
+Jun 04 11:12:59.752 VM: VM Ghost shutdown.
+Jun 04 11:12:59.753 HYPERVISOR: exec_cmd: vm extract_config Ghost 
+Jun 04 11:12:59.760 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Jun 04 11:12:59.760 VM: VM Ghost destroyed.
+Jun 04 11:12:59.772 HYPERVISOR: exec_cmd: vm set_ghost_status JC 2 
+Jun 04 11:12:59.772 HYPERVISOR: exec_cmd: vm set_ghost_file JC /home/aluno/GNS3/projects/OSPF-20180604/project-files/dynamips/c3660-a3jk9s-mz.IFRN.image-192.ghost 
+Jun 04 11:12:59.773 HYPERVISOR: exec_cmd: vm get_status JC 
+Jun 04 11:12:59.774 HYPERVISOR: exec_cmd: vm set_config JC configs/i11_startup-config.cfg 
+Jun 04 11:12:59.774 HYPERVISOR: exec_cmd: vm start JC 
+Jun 04 11:13:29.985 HYPERVISOR: exec_cmd: vm extract_config JC 
+Jun 04 11:15:24.062 HYPERVISOR: exec_cmd: vm get_status JC 
+Jun 04 11:15:24.079 HYPERVISOR: exec_cmd: vm stop JC 
+Jun 04 11:15:24.199 VM: VM JC shutdown.
+Jun 04 11:15:24.200 HYPERVISOR: exec_cmd: vm extract_config JC 
+Jun 04 11:15:25.480 HYPERVISOR: exec_cmd: vm get_status JC 
+Jun 04 11:15:25.480 HYPERVISOR: exec_cmd: vm extract_config JC 
+Jun 04 11:15:25.480 HYPERVISOR: exec_cmd: vm delete JC 
+Jun 04 11:15:25.480 VM: VM JC destroyed.
+Jun 04 11:15:25.481 HYPERVISOR: exec_cmd: hypervisor stop 
+Jun 04 11:15:25.964 HYPERVISOR: Stopped.
+Jun 04 11:15:25.964 GENERAL: reset done.

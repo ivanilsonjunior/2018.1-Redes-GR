@@ -1,0 +1,28 @@
+Oct 15 15:11:37.139 HYPERVISOR: Release 0.2.18-amd64/Linux (tag 2018033112)
+Oct 15 15:11:37.139 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 38885.
+Oct 15 15:11:37.149 HYPERVISOR: exec_cmd: hypervisor version 
+Oct 15 15:11:37.150 HYPERVISOR: exec_cmd: hypervisor working_dir /home/aluno/GNS3/projects/OSPF-20180604/project-files/dynamips 
+Oct 15 15:11:37.150 GENERAL: working_dir=/home/aluno/GNS3/projects/OSPF-20180604/project-files/dynamips
+Oct 15 15:11:37.150 HYPERVISOR: exec_cmd: hypervisor working_dir /home/aluno/GNS3/projects/OSPF-20180604/project-files/dynamips/19e2db6c-2b3c-4715-8a61-75d384b0fd09 
+Oct 15 15:11:37.150 GENERAL: working_dir=/home/aluno/GNS3/projects/OSPF-20180604/project-files/dynamips/19e2db6c-2b3c-4715-8a61-75d384b0fd09
+Oct 15 15:11:37.150 HYPERVISOR: exec_cmd: vm create SGA 13 c1700 
+Oct 15 15:11:37.150 VM: VM SGA created.
+Oct 15 15:11:37.151 HYPERVISOR: exec_cmd: vm set_con_tcp_port SGA 5018 
+Oct 15 15:11:37.151 HYPERVISOR: exec_cmd: c1700 get_mac_addr SGA 
+Oct 15 15:11:37.151 HYPERVISOR: exec_cmd: vm set_sparse_mem SGA 1 
+Oct 15 15:11:37.151 HYPERVISOR: exec_cmd: c1700 set_mac_addr SGA d00d.6666.0000 
+Oct 15 15:11:37.152 HYPERVISOR: exec_cmd: vm set_ios SGA /home/aluno/GNS3/images/IOS/c1700-adventerprisek9-mz.124-25b.image 
+Oct 15 15:11:37.152 HYPERVISOR: exec_cmd: vm set_ram SGA 160 
+Oct 15 15:11:37.152 HYPERVISOR: exec_cmd: vm slot_add_binding SGA 0 32 WIC-1ENET 
+Oct 15 15:11:37.153 HYPERVISOR: exec_cmd: vm set_nvram SGA 128 
+Oct 15 15:11:37.153 HYPERVISOR: exec_cmd: c1700 set_iomem SGA 5 
+Oct 15 15:11:37.153 HYPERVISOR: exec_cmd: vm slot_add_binding SGA 0 16 WIC-1ENET 
+Oct 15 15:11:38.200 HYPERVISOR: exec_cmd: nio create_udp udp-ef99551c-9fe6-47aa-88ee-79ab1b39d338 10034 127.0.0.1 10035 
+Oct 15 15:11:38.219 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SGA 0 32 udp-ef99551c-9fe6-47aa-88ee-79ab1b39d338 
+Oct 15 15:11:38.219 HYPERVISOR: exec_cmd: vm get_status SGA 
+Oct 15 15:11:38.907 HYPERVISOR: exec_cmd: nio create_udp udp-a3f50f72-6405-498b-8aa7-8367de1e6261 10072 127.0.0.1 10073 
+Oct 15 15:11:38.908 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SGA 0 16 udp-a3f50f72-6405-498b-8aa7-8367de1e6261 
+Oct 15 15:11:38.908 HYPERVISOR: exec_cmd: vm get_status SGA 
+Oct 15 15:11:39.083 HYPERVISOR: exec_cmd: nio create_udp udp-a1225f70-dd39-4208-b0e1-cdd992491140 10082 127.0.0.1 10083 
+Oct 15 15:11:39.084 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SGA 0 0 udp-a1225f70-dd39-4208-b0e1-cdd992491140 
+Oct 15 15:11:39.084 HYPERVISOR: exec_cmd: vm get_status SGA 

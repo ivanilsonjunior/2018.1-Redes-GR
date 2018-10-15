@@ -1,0 +1,60 @@
+Jun 04 11:06:42.826 HYPERVISOR: Release 0.2.18-amd64/Linux (tag 2018033112)
+Jun 04 11:06:42.826 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 51123.
+Jun 04 11:06:42.834 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 04 11:06:42.835 HYPERVISOR: exec_cmd: hypervisor working_dir /home/aluno/GNS3/projects/OSPF-20180604/project-files/dynamips 
+Jun 04 11:06:42.835 GENERAL: working_dir=/home/aluno/GNS3/projects/OSPF-20180604/project-files/dynamips
+Jun 04 11:06:42.835 HYPERVISOR: exec_cmd: hypervisor working_dir /home/aluno/GNS3/projects/OSPF-20180604/project-files/dynamips/c0c26cb8-7a86-4a85-a095-4af77c09ace4 
+Jun 04 11:06:42.835 GENERAL: working_dir=/home/aluno/GNS3/projects/OSPF-20180604/project-files/dynamips/c0c26cb8-7a86-4a85-a095-4af77c09ace4
+Jun 04 11:06:42.835 HYPERVISOR: exec_cmd: vm create MC 9 c1700 
+Jun 04 11:06:42.835 VM: VM MC created.
+Jun 04 11:06:42.836 HYPERVISOR: exec_cmd: vm set_con_tcp_port MC 5008 
+Jun 04 11:06:42.836 HYPERVISOR: exec_cmd: c1700 get_mac_addr MC 
+Jun 04 11:06:42.836 HYPERVISOR: exec_cmd: c1700 set_chassis MC 1751 
+Jun 04 11:06:42.837 HYPERVISOR: exec_cmd: vm slot_add_binding MC 0 32 WIC-1ENET 
+Jun 04 11:06:42.838 HYPERVISOR: exec_cmd: vm set_ios MC /home/aluno/GNS3/images/IOS/c1700-adventerprisek9-mz.124-25b.image 
+Jun 04 11:06:42.839 HYPERVISOR: exec_cmd: c1700 set_mac_addr MC d009.4fbf.0000 
+Jun 04 11:06:42.839 HYPERVISOR: exec_cmd: c1700 set_iomem MC 5 
+Jun 04 11:06:42.839 HYPERVISOR: exec_cmd: vm slot_add_binding MC 0 16 WIC-1ENET 
+Jun 04 11:06:42.840 HYPERVISOR: exec_cmd: vm set_ram MC 128 
+Jun 04 11:06:42.840 HYPERVISOR: exec_cmd: vm set_sparse_mem MC 1 
+Jun 04 11:06:42.840 HYPERVISOR: exec_cmd: vm set_nvram MC 128 
+Jun 04 11:06:42.840 HYPERVISOR: exec_cmd: vm get_status MC 
+Jun 04 11:06:42.841 HYPERVISOR: exec_cmd: vm set_idle_pc MC 0x8035882c 
+Jun 04 11:06:44.342 HYPERVISOR: exec_cmd: nio create_udp udp-f7e365cc-967c-49dc-8ee1-af2b4d38de8f 10048 127.0.0.1 10049 
+Jun 04 11:06:44.364 HYPERVISOR: exec_cmd: vm slot_add_nio_binding MC 0 0 udp-f7e365cc-967c-49dc-8ee1-af2b4d38de8f 
+Jun 04 11:06:44.364 HYPERVISOR: exec_cmd: vm get_status MC 
+Jun 04 11:06:44.949 HYPERVISOR: exec_cmd: nio create_udp udp-1f17e68f-8a1e-4a0e-9445-951e2d16ce6e 10074 127.0.0.1 10075 
+Jun 04 11:06:44.950 HYPERVISOR: exec_cmd: vm slot_add_nio_binding MC 0 16 udp-1f17e68f-8a1e-4a0e-9445-951e2d16ce6e 
+Jun 04 11:06:44.951 HYPERVISOR: exec_cmd: vm get_status MC 
+Jun 04 11:06:55.685 HYPERVISOR: exec_cmd: vm create Ghost 0 c1700 
+Jun 04 11:06:55.686 VM: VM Ghost created.
+Jun 04 11:06:55.686 HYPERVISOR: exec_cmd: vm set_ios Ghost /home/aluno/GNS3/images/IOS/c1700-adventerprisek9-mz.124-25b.image 
+Jun 04 11:06:55.686 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Jun 04 11:06:55.687 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost /home/aluno/GNS3/projects/OSPF-20180604/project-files/dynamips/c1700-adventerprisek9-mz.124-25b.image-128.ghost 
+Jun 04 11:06:55.687 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Jun 04 11:06:55.687 HYPERVISOR: exec_cmd: vm set_config Ghost configs/i0_startup-config.cfg 
+Jun 04 11:06:55.687 HYPERVISOR: exec_cmd: vm start Ghost 
+Jun 04 11:06:55.962 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Jun 04 11:06:55.963 HYPERVISOR: exec_cmd: vm stop Ghost 
+Jun 04 11:06:56.289 VM: VM Ghost shutdown.
+Jun 04 11:06:56.290 HYPERVISOR: exec_cmd: vm extract_config Ghost 
+Jun 04 11:06:56.291 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Jun 04 11:06:56.291 VM: VM Ghost destroyed.
+Jun 04 11:06:56.292 HYPERVISOR: exec_cmd: vm set_ghost_status MC 2 
+Jun 04 11:06:56.292 HYPERVISOR: exec_cmd: vm set_ghost_file MC /home/aluno/GNS3/projects/OSPF-20180604/project-files/dynamips/c1700-adventerprisek9-mz.124-25b.image-128.ghost 
+Jun 04 11:06:56.293 HYPERVISOR: exec_cmd: vm get_status MC 
+Jun 04 11:06:56.293 HYPERVISOR: exec_cmd: vm set_config MC configs/i9_startup-config.cfg 
+Jun 04 11:06:56.293 HYPERVISOR: exec_cmd: vm start MC 
+Jun 04 11:06:56.294 GHOST: loaded ghost image /home/aluno/GNS3/projects/OSPF-20180604/project-files/dynamips/c1700-adventerprisek9-mz.124-25b.image-128.ghost (fd=11) at addr=0x7fb948000000 (size=0x4000000)
+Jun 04 11:06:56.294 GHOST: loaded image /home/aluno/GNS3/projects/OSPF-20180604/project-files/dynamips/c1700-adventerprisek9-mz.124-25b.image-128.ghost successfully.
+Jun 04 11:07:26.533 HYPERVISOR: exec_cmd: vm extract_config MC 
+Jun 04 11:08:40.197 HYPERVISOR: exec_cmd: vm get_status MC 
+Jun 04 11:08:40.198 HYPERVISOR: exec_cmd: vm stop MC 
+Jun 04 11:08:40.272 GHOST: unloaded ghost image /home/aluno/GNS3/projects/OSPF-20180604/project-files/dynamips/c1700-adventerprisek9-mz.124-25b.image-128.ghost (fd=11) at addr=0x7fb948000000 (size=0x4000000)
+Jun 04 11:08:40.413 VM: VM MC shutdown.
+Jun 04 11:08:40.414 HYPERVISOR: exec_cmd: vm extract_config MC 
+Jun 04 11:08:40.492 HYPERVISOR: exec_cmd: vm get_status MC 
+Jun 04 11:08:40.492 HYPERVISOR: exec_cmd: vm extract_config MC 
+Jun 04 11:08:40.493 HYPERVISOR: exec_cmd: vm delete MC 
+Jun 04 11:08:40.493 VM: VM MC destroyed.
+Jun 04 11:08:40.495 HYPERVISOR: exec_cmd: hypervisor stop 

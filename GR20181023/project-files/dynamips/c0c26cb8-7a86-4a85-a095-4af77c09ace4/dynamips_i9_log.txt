@@ -1,0 +1,46 @@
+Jun 11 09:31:26.556 HYPERVISOR: Release 0.2.18-amd64/Linux (tag 2018033112)
+Jun 11 09:31:26.556 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 33567.
+Jun 11 09:31:26.568 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 11 09:31:26.568 HYPERVISOR: exec_cmd: hypervisor working_dir /home/aluno/GNS3/projects/OSPF-20180604/project-files/dynamips 
+Jun 11 09:31:26.568 GENERAL: working_dir=/home/aluno/GNS3/projects/OSPF-20180604/project-files/dynamips
+Jun 11 09:31:26.568 HYPERVISOR: exec_cmd: hypervisor working_dir /home/aluno/GNS3/projects/OSPF-20180604/project-files/dynamips/102f7d35-6380-4a9d-94dd-52616f8e0d29 
+Jun 11 09:31:26.568 GENERAL: working_dir=/home/aluno/GNS3/projects/OSPF-20180604/project-files/dynamips/102f7d35-6380-4a9d-94dd-52616f8e0d29
+Jun 11 09:31:26.569 HYPERVISOR: exec_cmd: vm create CM 12 c3600 
+Jun 11 09:31:26.569 VM: VM CM created.
+Jun 11 09:31:26.569 HYPERVISOR: exec_cmd: vm set_con_tcp_port CM 5017 
+Jun 11 09:31:26.569 HYPERVISOR: exec_cmd: c3600 get_mac_addr CM 
+Jun 11 09:31:26.570 HYPERVISOR: exec_cmd: c3600 set_chassis CM 3660 
+Jun 11 09:31:26.570 HYPERVISOR: exec_cmd: c3600 set_mac_addr CM cc0c.651b.0000 
+Jun 11 09:31:26.570 HYPERVISOR: exec_cmd: vm get_status CM 
+Jun 11 09:31:26.571 HYPERVISOR: exec_cmd: vm slot_add_binding CM 1 0 NM-4E 
+Jun 11 09:31:26.571 HYPERVISOR: exec_cmd: vm set_nvram CM 256 
+Jun 11 09:31:26.572 HYPERVISOR: exec_cmd: vm set_ios CM /home/aluno/GNS3/images/IOS/c3660-a3jk9s-mz.IFRN.image 
+Jun 11 09:31:26.572 HYPERVISOR: exec_cmd: vm set_ram CM 192 
+Jun 11 09:31:28.097 HYPERVISOR: exec_cmd: nio create_udp udp-9857d583-de27-485e-9c4e-82e833dbd728 10042 127.0.0.1 10043 
+Jun 11 09:31:28.120 HYPERVISOR: exec_cmd: vm slot_add_nio_binding CM 1 0 udp-9857d583-de27-485e-9c4e-82e833dbd728 
+Jun 11 09:31:28.120 HYPERVISOR: exec_cmd: vm get_status CM 
+Jun 11 09:31:28.958 HYPERVISOR: exec_cmd: nio create_udp udp-6e30c347-e22a-49b6-b751-f6f00577e086 10084 127.0.0.1 10085 
+Jun 11 09:31:28.959 HYPERVISOR: exec_cmd: vm slot_add_nio_binding CM 0 1 udp-6e30c347-e22a-49b6-b751-f6f00577e086 
+Jun 11 09:31:28.960 HYPERVISOR: exec_cmd: vm get_status CM 
+Jun 11 09:31:29.260 HYPERVISOR: exec_cmd: nio create_udp udp-5a410a97-026f-4c4e-a48b-08206d3f2ea7 10102 127.0.0.1 10103 
+Jun 11 09:31:29.262 HYPERVISOR: exec_cmd: vm slot_add_nio_binding CM 0 0 udp-5a410a97-026f-4c4e-a48b-08206d3f2ea7 
+Jun 11 09:31:29.262 HYPERVISOR: exec_cmd: vm get_status CM 
+Jun 11 09:31:45.620 HYPERVISOR: exec_cmd: vm set_ghost_status CM 2 
+Jun 11 09:31:45.621 HYPERVISOR: exec_cmd: vm set_ghost_file CM /home/aluno/GNS3/projects/OSPF-20180604/project-files/dynamips/c3660-a3jk9s-mz.IFRN.image-192.ghost 
+Jun 11 09:31:45.622 HYPERVISOR: exec_cmd: vm get_status CM 
+Jun 11 09:31:45.623 HYPERVISOR: exec_cmd: vm set_config CM configs/i12_startup-config.cfg 
+Jun 11 09:31:45.623 HYPERVISOR: exec_cmd: vm start CM 
+Jun 11 09:32:15.838 HYPERVISOR: exec_cmd: vm extract_config CM 
+Jun 11 09:43:54.083 HYPERVISOR: exec_cmd: vm get_status CM 
+Jun 11 09:43:54.083 HYPERVISOR: exec_cmd: vm stop CM 
+Jun 11 09:43:54.192 VM: VM CM shutdown.
+Jun 11 09:43:54.193 HYPERVISOR: exec_cmd: vm extract_config CM 
+Jun 11 09:43:58.946 HYPERVISOR: exec_cmd: vm get_status CM 
+Jun 11 09:43:58.949 HYPERVISOR: exec_cmd: vm extract_config CM 
+Jun 11 09:43:59.008 HYPERVISOR: exec_cmd: vm get_status CM 
+Jun 11 09:43:59.008 HYPERVISOR: exec_cmd: vm extract_config CM 
+Jun 11 09:43:59.009 HYPERVISOR: exec_cmd: vm delete CM 
+Jun 11 09:43:59.009 VM: VM CM destroyed.
+Jun 11 09:43:59.009 HYPERVISOR: exec_cmd: hypervisor stop 
+Jun 11 09:43:59.471 HYPERVISOR: Stopped.
+Jun 11 09:43:59.471 GENERAL: reset done.

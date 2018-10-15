@@ -1,0 +1,36 @@
+Jun 08 10:11:45.235 HYPERVISOR: Release 0.2.18-amd64/Linux (tag 2018033112)
+Jun 08 10:11:45.235 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 41721.
+Jun 08 10:11:45.243 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 08 10:11:45.243 HYPERVISOR: exec_cmd: hypervisor working_dir /home/aluno/GNS3/projects/OSPF-20180604/project-files/dynamips 
+Jun 08 10:11:45.243 GENERAL: working_dir=/home/aluno/GNS3/projects/OSPF-20180604/project-files/dynamips
+Jun 08 10:11:45.244 HYPERVISOR: exec_cmd: hypervisor working_dir /home/aluno/GNS3/projects/OSPF-20180604/project-files/dynamips/70f7571f-f0da-4dd2-bce1-9052896802e0 
+Jun 08 10:11:45.244 GENERAL: working_dir=/home/aluno/GNS3/projects/OSPF-20180604/project-files/dynamips/70f7571f-f0da-4dd2-bce1-9052896802e0
+Jun 08 10:11:45.244 HYPERVISOR: exec_cmd: vm create JC 11 c3600 
+Jun 08 10:11:45.244 VM: VM JC created.
+Jun 08 10:11:45.244 HYPERVISOR: exec_cmd: vm set_con_tcp_port JC 5016 
+Jun 08 10:11:45.244 HYPERVISOR: exec_cmd: c3600 get_mac_addr JC 
+Jun 08 10:11:45.245 HYPERVISOR: exec_cmd: c3600 set_chassis JC 3660 
+Jun 08 10:11:45.245 HYPERVISOR: exec_cmd: vm get_status JC 
+Jun 08 10:11:45.246 HYPERVISOR: exec_cmd: vm slot_add_binding JC 1 0 NM-1E 
+Jun 08 10:11:45.246 HYPERVISOR: exec_cmd: vm set_ram JC 192 
+Jun 08 10:11:45.246 HYPERVISOR: exec_cmd: c3600 set_mac_addr JC cc0b.639a.0000 
+Jun 08 10:11:45.247 HYPERVISOR: exec_cmd: vm set_nvram JC 256 
+Jun 08 10:11:45.248 HYPERVISOR: exec_cmd: vm set_ios JC /home/aluno/GNS3/images/IOS/c3660-a3jk9s-mz.IFRN.image 
+Jun 08 10:11:45.417 HYPERVISOR: exec_cmd: nio create_udp udp-c67ccbf6-9e7f-42d7-8ef3-b7cd443a4c38 10002 127.0.0.1 10003 
+Jun 08 10:11:45.455 HYPERVISOR: exec_cmd: vm slot_add_nio_binding JC 1 0 udp-c67ccbf6-9e7f-42d7-8ef3-b7cd443a4c38 
+Jun 08 10:11:45.456 HYPERVISOR: exec_cmd: vm get_status JC 
+Jun 08 10:11:46.537 HYPERVISOR: exec_cmd: nio create_udp udp-dc6b6a54-7976-4858-97cb-4076e07b0ee3 10048 127.0.0.1 10049 
+Jun 08 10:11:46.539 HYPERVISOR: exec_cmd: vm slot_add_nio_binding JC 0 1 udp-dc6b6a54-7976-4858-97cb-4076e07b0ee3 
+Jun 08 10:11:46.539 HYPERVISOR: exec_cmd: vm get_status JC 
+Jun 08 10:11:47.075 HYPERVISOR: exec_cmd: nio create_udp udp-3cb65e90-77eb-496d-8093-fbc653e8eded 10076 127.0.0.1 10077 
+Jun 08 10:11:47.076 HYPERVISOR: exec_cmd: vm slot_add_nio_binding JC 0 0 udp-3cb65e90-77eb-496d-8093-fbc653e8eded 
+Jun 08 10:11:47.077 HYPERVISOR: exec_cmd: vm get_status JC 
+Jun 08 14:49:36.222 HYPERVISOR: exec_cmd: vm get_status JC 
+Jun 08 14:49:36.223 HYPERVISOR: exec_cmd: vm extract_config JC 
+Jun 08 14:49:36.434 HYPERVISOR: exec_cmd: vm get_status JC 
+Jun 08 14:49:36.435 HYPERVISOR: exec_cmd: vm extract_config JC 
+Jun 08 14:49:36.435 HYPERVISOR: exec_cmd: vm delete JC 
+Jun 08 14:49:36.435 VM: VM JC destroyed.
+Jun 08 14:49:36.436 HYPERVISOR: exec_cmd: hypervisor stop 
+Jun 08 14:49:36.613 HYPERVISOR: Stopped.
+Jun 08 14:49:36.613 GENERAL: reset done.

@@ -1,0 +1,65 @@
+Jun 04 11:15:42.094 HYPERVISOR: Release 0.2.18-amd64/Linux (tag 2018033112)
+Jun 04 11:15:42.094 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 37481.
+Jun 04 11:15:42.104 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 04 11:15:42.104 HYPERVISOR: exec_cmd: hypervisor working_dir /home/aluno/GNS3/projects/OSPF-20180604/project-files/dynamips 
+Jun 04 11:15:42.104 GENERAL: working_dir=/home/aluno/GNS3/projects/OSPF-20180604/project-files/dynamips
+Jun 04 11:15:42.104 HYPERVISOR: exec_cmd: hypervisor working_dir /home/aluno/GNS3/projects/OSPF-20180604/project-files/dynamips/55f18cea-51f5-49cb-8210-57333f249b5a 
+Jun 04 11:15:42.104 GENERAL: working_dir=/home/aluno/GNS3/projects/OSPF-20180604/project-files/dynamips/55f18cea-51f5-49cb-8210-57333f249b5a
+Jun 04 11:15:42.104 HYPERVISOR: exec_cmd: vm create PAR 4 c1700 
+Jun 04 11:15:42.104 VM: VM PAR created.
+Jun 04 11:15:42.105 HYPERVISOR: exec_cmd: vm set_con_tcp_port PAR 5005 
+Jun 04 11:15:42.105 HYPERVISOR: exec_cmd: c1700 get_mac_addr PAR 
+Jun 04 11:15:42.105 HYPERVISOR: exec_cmd: c1700 set_chassis PAR 1751 
+Jun 04 11:15:42.105 HYPERVISOR: exec_cmd: vm get_status PAR 
+Jun 04 11:15:42.105 HYPERVISOR: exec_cmd: vm set_idle_pc PAR 0x8035882c 
+Jun 04 11:15:42.106 HYPERVISOR: exec_cmd: vm slot_add_binding PAR 0 32 WIC-1ENET 
+Jun 04 11:15:42.106 HYPERVISOR: exec_cmd: vm set_ram PAR 128 
+Jun 04 11:15:42.106 HYPERVISOR: exec_cmd: vm slot_add_binding PAR 0 16 WIC-1ENET 
+Jun 04 11:15:42.106 HYPERVISOR: exec_cmd: c1700 set_mac_addr PAR d004.41ce.0000 
+Jun 04 11:15:42.107 HYPERVISOR: exec_cmd: vm set_ios PAR /home/aluno/GNS3/images/IOS/c1700-adventerprisek9-mz.124-25b.image 
+Jun 04 11:15:42.107 HYPERVISOR: exec_cmd: c1700 set_iomem PAR 5 
+Jun 04 11:15:42.107 HYPERVISOR: exec_cmd: vm set_nvram PAR 128 
+Jun 04 11:15:42.108 HYPERVISOR: exec_cmd: vm set_sparse_mem PAR 1 
+Jun 04 11:15:42.854 HYPERVISOR: exec_cmd: nio create_udp udp-95625ef6-55dc-4414-8b74-4337153ed2e6 10030 127.0.0.1 10031 
+Jun 04 11:15:42.874 HYPERVISOR: exec_cmd: vm slot_add_nio_binding PAR 0 32 udp-95625ef6-55dc-4414-8b74-4337153ed2e6 
+Jun 04 11:15:42.875 HYPERVISOR: exec_cmd: vm get_status PAR 
+Jun 04 11:15:43.558 HYPERVISOR: exec_cmd: nio create_udp udp-5c4750b1-0e8e-4938-96b2-b8a83b50586e 10066 127.0.0.1 10067 
+Jun 04 11:15:43.559 HYPERVISOR: exec_cmd: vm slot_add_nio_binding PAR 0 16 udp-5c4750b1-0e8e-4938-96b2-b8a83b50586e 
+Jun 04 11:15:43.560 HYPERVISOR: exec_cmd: vm get_status PAR 
+Jun 04 11:15:47.390 HYPERVISOR: exec_cmd: vm create Ghost 0 c1700 
+Jun 04 11:15:47.390 VM: VM Ghost created.
+Jun 04 11:15:47.390 HYPERVISOR: exec_cmd: vm set_ios Ghost /home/aluno/GNS3/images/IOS/c1700-adventerprisek9-mz.124-25b.image 
+Jun 04 11:15:47.390 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Jun 04 11:15:47.391 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost /home/aluno/GNS3/projects/OSPF-20180604/project-files/dynamips/c1700-adventerprisek9-mz.124-25b.image-128.ghost 
+Jun 04 11:15:47.391 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Jun 04 11:15:47.391 HYPERVISOR: exec_cmd: vm set_config Ghost configs/i0_startup-config.cfg 
+Jun 04 11:15:47.391 HYPERVISOR: exec_cmd: vm start Ghost 
+Jun 04 11:15:47.660 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Jun 04 11:15:47.661 HYPERVISOR: exec_cmd: vm stop Ghost 
+Jun 04 11:15:47.993 VM: VM Ghost shutdown.
+Jun 04 11:15:47.994 HYPERVISOR: exec_cmd: vm extract_config Ghost 
+Jun 04 11:15:47.995 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Jun 04 11:15:47.995 VM: VM Ghost destroyed.
+Jun 04 11:15:47.997 HYPERVISOR: exec_cmd: vm set_ghost_status PAR 2 
+Jun 04 11:15:47.997 HYPERVISOR: exec_cmd: vm set_ghost_file PAR /home/aluno/GNS3/projects/OSPF-20180604/project-files/dynamips/c1700-adventerprisek9-mz.124-25b.image-128.ghost 
+Jun 04 11:15:47.997 HYPERVISOR: exec_cmd: vm get_status PAR 
+Jun 04 11:15:47.997 HYPERVISOR: exec_cmd: vm set_config PAR configs/i4_startup-config.cfg 
+Jun 04 11:15:47.998 HYPERVISOR: exec_cmd: vm start PAR 
+Jun 04 11:15:47.999 GHOST: loaded ghost image /home/aluno/GNS3/projects/OSPF-20180604/project-files/dynamips/c1700-adventerprisek9-mz.124-25b.image-128.ghost (fd=11) at addr=0x7f874c000000 (size=0x4000000)
+Jun 04 11:15:47.999 GHOST: loaded image /home/aluno/GNS3/projects/OSPF-20180604/project-files/dynamips/c1700-adventerprisek9-mz.124-25b.image-128.ghost successfully.
+Jun 04 11:15:57.456 HYPERVISOR: exec_cmd: vm set_ghost_status PAR 2 
+Jun 04 11:15:57.459 HYPERVISOR: exec_cmd: vm set_ghost_file PAR /home/aluno/GNS3/projects/OSPF-20180604/project-files/dynamips/c1700-adventerprisek9-mz.124-25b.image-128.ghost 
+Jun 04 11:15:57.463 HYPERVISOR: exec_cmd: vm get_status PAR 
+Jun 04 11:16:18.231 HYPERVISOR: exec_cmd: vm extract_config PAR 
+Jun 04 11:25:26.513 HYPERVISOR: exec_cmd: vm get_status PAR 
+Jun 04 11:25:26.515 HYPERVISOR: exec_cmd: vm stop PAR 
+Jun 04 11:25:26.590 GHOST: unloaded ghost image /home/aluno/GNS3/projects/OSPF-20180604/project-files/dynamips/c1700-adventerprisek9-mz.124-25b.image-128.ghost (fd=11) at addr=0x7f874c000000 (size=0x4000000)
+Jun 04 11:25:26.768 VM: VM PAR shutdown.
+Jun 04 11:25:26.769 HYPERVISOR: exec_cmd: vm extract_config PAR 
+Jun 04 11:25:27.402 HYPERVISOR: exec_cmd: vm get_status PAR 
+Jun 04 11:25:27.403 HYPERVISOR: exec_cmd: vm extract_config PAR 
+Jun 04 11:25:27.404 HYPERVISOR: exec_cmd: vm delete PAR 
+Jun 04 11:25:27.404 VM: VM PAR destroyed.
+Jun 04 11:25:27.406 HYPERVISOR: exec_cmd: hypervisor stop 
+Jun 04 11:25:27.598 HYPERVISOR: Stopped.
+Jun 04 11:25:27.598 GENERAL: reset done.

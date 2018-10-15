@@ -1,0 +1,27 @@
+Oct 15 15:11:37.442 HYPERVISOR: Release 0.2.18-amd64/Linux (tag 2018033112)
+Oct 15 15:11:37.442 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 34415.
+Oct 15 15:11:37.452 HYPERVISOR: exec_cmd: hypervisor version 
+Oct 15 15:11:37.452 HYPERVISOR: exec_cmd: hypervisor working_dir /home/aluno/GNS3/projects/OSPF-20180604/project-files/dynamips 
+Oct 15 15:11:37.452 GENERAL: working_dir=/home/aluno/GNS3/projects/OSPF-20180604/project-files/dynamips
+Oct 15 15:11:37.452 HYPERVISOR: exec_cmd: hypervisor working_dir /home/aluno/GNS3/projects/OSPF-20180604/project-files/dynamips/accc33d3-c980-48e9-a8a2-1988c48f3d4e 
+Oct 15 15:11:37.452 GENERAL: working_dir=/home/aluno/GNS3/projects/OSPF-20180604/project-files/dynamips/accc33d3-c980-48e9-a8a2-1988c48f3d4e
+Oct 15 15:11:37.452 HYPERVISOR: exec_cmd: vm create IP 3 c3600 
+Oct 15 15:11:37.452 VM: VM IP created.
+Oct 15 15:11:37.453 HYPERVISOR: exec_cmd: vm set_con_tcp_port IP 5011 
+Oct 15 15:11:37.453 HYPERVISOR: exec_cmd: c3600 get_mac_addr IP 
+Oct 15 15:11:37.453 HYPERVISOR: exec_cmd: c3600 set_chassis IP 3660 
+Oct 15 15:11:37.454 HYPERVISOR: exec_cmd: c3600 set_mac_addr IP cc03.3f85.0000 
+Oct 15 15:11:37.454 HYPERVISOR: exec_cmd: vm set_ios IP /home/aluno/GNS3/images/IOS/c3660-a3jk9s-mz.IFRN.image 
+Oct 15 15:11:37.455 HYPERVISOR: exec_cmd: vm set_ram IP 192 
+Oct 15 15:11:37.455 HYPERVISOR: exec_cmd: vm set_nvram IP 256 
+Oct 15 15:11:37.455 HYPERVISOR: exec_cmd: vm get_status IP 
+Oct 15 15:11:37.457 HYPERVISOR: exec_cmd: vm slot_add_binding IP 1 0 NM-1FE-TX 
+Oct 15 15:11:37.744 HYPERVISOR: exec_cmd: nio create_udp udp-f5a7603a-23ae-46a7-84cb-b204d062f0f2 10010 127.0.0.1 10011 
+Oct 15 15:11:37.762 HYPERVISOR: exec_cmd: vm slot_add_nio_binding IP 0 0 udp-f5a7603a-23ae-46a7-84cb-b204d062f0f2 
+Oct 15 15:11:37.763 HYPERVISOR: exec_cmd: vm get_status IP 
+Oct 15 15:11:38.809 HYPERVISOR: exec_cmd: nio create_udp udp-0ad57c0f-b8a2-40e4-9e10-c73652423462 10064 127.0.0.1 10065 
+Oct 15 15:11:38.810 HYPERVISOR: exec_cmd: vm slot_add_nio_binding IP 1 0 udp-0ad57c0f-b8a2-40e4-9e10-c73652423462 
+Oct 15 15:11:38.810 HYPERVISOR: exec_cmd: vm get_status IP 
+Oct 15 15:11:39.385 HYPERVISOR: exec_cmd: nio create_udp udp-b595feca-abc5-4a01-a2da-867eb814496f 10098 127.0.0.1 10099 
+Oct 15 15:11:39.386 HYPERVISOR: exec_cmd: vm slot_add_nio_binding IP 0 1 udp-b595feca-abc5-4a01-a2da-867eb814496f 
+Oct 15 15:11:39.386 HYPERVISOR: exec_cmd: vm get_status IP 
